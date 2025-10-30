@@ -1,108 +1,52 @@
 
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>GreenFork Cafe</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  </head>
-
-  <body class="bg-stone-50 h-650">
-    <div class="relative flex items-center gap-x-6 overflow-hidden bg-yellow-400 px-5 py-2.5 after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px sm:px-3.5 sm:before:flex-1">
-      <div aria-hidden="true" class="absolute top-1/2 left-[max(-7rem,calc(50%-52rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl">
-        <div style="clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)" class="aspect-577/310 w-144.25 bg-linear-to-r from-[#ff80b5] to-[#9089fc] opacity-40"></div>
-      </div>
-
-      <div aria-hidden="true" class="absolute top-1/2 left-[max(45rem,calc(50%+8rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl">
-        <div style="clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)" class="aspect-577/310 w-144.25 bg-linear-to-r from-[#ff80b5] to-[#9089fc] opacity-40"></div>
-      </div>
-
-      <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
-        <p class="text-sm/6 text-gray-100">
-          <strong class="font-semibold">GreenFork Cafe</strong>
-          <svg viewBox="0 0 2 2" aria-hidden="true" class="mx-2 inline size-0.5 fill-current">
-            <circle r="1" cx="1" cy="1" />
-          </svg>
-          Signup with a new account for 10% off your next order!
-        </p>
-        <a href="#" class="flex-none rounded-full bg-white/10 px-3.5 py-1 text-sm font-semibold text-white shadow-xs inset-ring-white/20 hover:bg-white/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
-          Signup now <span aria-hidden="true">&rarr;</span>
-        </a>
-      </div>
-
-      <div class="flex flex-1 justify-end">
-        <button type="button" class="-m-3 p-3 focus-visible:-outline-offset-4">
-          <span class="sr-only">Dismiss</span>
-          <svg viewBox="0 0 20 20" fill="currentColor" data-slot="icon" aria-hidden="true" class="size-5 text-gray-100">
-            <path d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z" />
-          </svg>
-        </button>
-      </div>
-    </div>
-
-    <!-- Header -->
-    <nav class="bg-green-800 h-22 pl-10 pr-10 lg:px-8 flex items-center">
-      <img src="bw GreenFork Logo.png" class="h-30 w-35">
-      <ul class="list-none bg-green-800 p-0 m-0 overflow-hidden">
-        <li class="float-left text-2x1">
-          <a href="Blogs.html" class="text-white p-8 pl-108 block text-center font-bold hover:text-yellow-400 hover:underline">Blogs</a>
-        </li>
-        <li class="float-left text-2x1">
-          <a href="About.html" class="text-white p-8 pl-20 block text-center font-bold hover:text-yellow-400 hover:underline">About</a>
-        </li>
-        <li class="float-left text-2x1">
-          <a href="GreenFork.html" class="text-white p-8 pl-20 block text-center font-bold hover:text-yellow-400 hover:underline">Home</a>
-        </li>
-        <li class="float-left text-2x1">
-          <a href="Menu.html" class="text-white p-8 pl-20 block text-center font-bold hover:text-yellow-400 hover:underline">Menu</a>
-        </li>
-        <li class="float-left text-2x1">
-          <a href="Find Us.html" class="text-white p-8 pl-20 pr-40 block text-center font-bold hover:text-yellow-400 hover:underline">Find Us</a>
-        </li>
-        <li class="float-left text-2x1">
-          <a href="Sign In.html" class="text-white underline p-8 pl-25 block text-center font-bold hover:text-yellow-400 hover:underline">Sign In</a>
-        </li>
-      </ul>
-    </nav>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Find Us</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        
+    </head>
+    <body>
+      <!-- Header -->
+      <nav class="bg-green-800 h-22 pl-10 pr-10 lg:px-8 flex items-center">
+        <img src="bw GreenFork Logo.png" class="h-30 w-35">
+        <ul class="list-none bg-green-800 p-0 m-0 overflow-hidden">
+          <li class="float-left text-2x1">
+            <a href="Blogs.html" class="text-white p-8 pl-108 block text-center font-bold hover:text-yellow-400 hover:underline">Blogs</a>
+          </li>
+          <li class="float-left text-2x1">
+            <a href="About.html" class="text-white p-8 pl-20 block text-center font-bold hover:text-yellow-400 hover:underline">About</a>
+          </li>
+          <li class="float-left text-2x1">
+            <a href="GreenFork.html" class="text-white p-8 pl-20 block text-center font-bold hover:text-yellow-400 hover:underline">Home</a>
+          </li>
+          <li class="float-left text-2x1">
+            <a href="Menu.html" class="text-white p-8 pl-20 block text-center font-bold hover:text-yellow-400 hover:underline">Menu</a>
+          </li>
+          <li class="float-left text-2x1">
+            <a href="Find Us.html" class="text-white p-8 pl-20 pr-40 block text-center font-bold hover:text-yellow-400 hover:underline">Find Us</a>
+          </li>
+          <li class="float-left text-2x1">
+            <a href="Sign In.html" class="text-white underline p-8 pl-25 block text-center font-bold hover:text-yellow-400 hover:underline">Sign In</a>
+          </li>
+        </ul>
+      </nav>
 
     <!-- Front page -->
     <div class="relative">
-      <img src="Cafe interior.jpg" alt="GreenFork Cafe interior" class="h-195 w-screen brightness-35 alt">
+      <img src="Cafe interior.jpg" alt="GreenFork Cafe interior" class="h-screen w-screen brightness-35 alt">
       <h1 class="absolute bottom-120 left-30 text-6xl font-bold text-white mb-20">
         Welcome to <br> Green Fork Cafe!
       </h1>
-      <p class="text-white left-30 bottom-102 text-lg absolute mr-226">
-        Welcome to GreenFork Cafe — where every cup of coffee is crafted with care for you and the planet. Whether you're a young professional powering through your day, a health-conscious family seeking nourishing options, or an eco-friendly eater committed to sustainable living, GreenFork Cafe is your go-to destination. We blend premium, ethically sourced beans with wholesome ingredients to fuel your lifestyle while minimizing our environmental footprint. Sip consciously, live vibrantly, and join us in brewing a better tomorrow.
+      <p class="text-white left-30 bottom-120 text-lg absolute mr-226">
+        You can find GreenFork Café nestled in the heart of <strong>Edmonton at 1420 104 Street NW,</strong> where fresh flavors and sustainable dining come together in a cozy, modern space.
       </p>
-      <a href="Menu.html">
-        <button class="absolute bottom-85 left-28 text-white border-4 hover:text-pink-600 p-3 font-bold bg-green-500 rounded-full cursor-pointer">Shop Now</button>
-      </a>
       <img src="GreenFork.png" class="absolute left-280 bottom-40 h-150 w-150">
+      <img src="map.png" class="absolute w-150 h-100 bottom-15 left-30">
     </div>
-     
-    <p class="ml-20 mt-20 text-5xl font-semibold absolute animate-pulse ">
-      GreenFork's Signature Coffee
-    </p>
-    <p class="ml-20 mt-2 text-xl absolute top-265">
-      Try out our new GreenFork Cafe Signature Coffee Now!
-    </p>
-    <img src="Green Coffee.png" class="w-160 h-160 ml-280 bg-stone-50" alt="GreenFork Signature Coffee">
-    <a href="Menu.html">
-      <button class="ml-18 top-280 absolute text-white border-4 p-3 font-bold bg-pink-600 rounded-full cursor-pointer">
-      Order Now</button> 
-    </a>
-    
-    <p class="ml-20 font-bold text-3xl">
-      Check out our instagram and team!
-      <br>
-      @GreenFork Cafe
-      <img src="instagram.jpg" class="ml-200 absolute" alt="Big instagram logo">
-    </p>
-    <a href="About.html">
-      <button class="ml-18 top-420 absolute text-white border-4 p-3 font-bold bg-pink-600 rounded-full w-45 h-25 text-xl cursor-pointer animate-bounce">Check Us Out!</button>
-    </a>
-    <script src="main.js"></script>
-  </body>
+        <script src='main.js'></script>
+    </body>
 </html>
